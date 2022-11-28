@@ -33,6 +33,7 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -104,6 +105,11 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+
+    {% if request.page_type == "product" %}
+      <script async ctype="text/javascript" src="https://web-sdk.eyefitu.com/shopify/sdk/shopify.js?shop=eyefitu-widget-dev.myshopify.com"></script>
+    {% endif %}
+
   </head>
 
   <body>
