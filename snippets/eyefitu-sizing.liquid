@@ -24,10 +24,6 @@
   {% assign gender = product.metafields.eyefitu.gender | default:'female' %}
   {% assign displayVisualSizeCharts = shop.metafields.eyefitu.app_settings.displayVisualSizeCharts | default: false %}
   {% assign visualSizeChartTitle = product.vendor | append: " - " | append: product.type  %}
-
-  {% if product.type and product.type != "" %}
-    <!-- test -->
-  {%  endif %}
   
   <script type="application/javascript">
    window.eyefituShopifyOptions = {
