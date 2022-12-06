@@ -14,10 +14,6 @@
 
   {% assign sizeOption = null %}
 
-  {% if product.type == blank  %}
-    <!-- asdasdasd -->
-  {% endif %}
-
   {% for product_option in product.options_with_values %}
     {% if product_option.name == "Size" %}
       {%- assign sizeOption = "option" | append: product_option.position -%}
@@ -36,7 +32,7 @@
        productId: 'gid://shopify/Product/{{ product.id }}',
        image: "{{ image_https }}",
        brand: "{{ product.vendor }}",
-       {% if product.type and product.type != "" %}
+       {% if product.type != blank %}
          product: "{{ product.type }}",
        {%  endif %}
        gender: "{{ gender }}",
