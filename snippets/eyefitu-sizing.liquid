@@ -37,7 +37,9 @@
        productId: 'gid://shopify/Product/{{ product.id }}',
        image: "{{ image_https }}",
        brand: "{{ product.vendor }}",
-       product: "{{ product.type }}",
+       {% if product.type and product.type != "" %}
+         product: "{{ product.type }}",
+       {%  endif %}
        gender: "{{ gender }}",
        language: '{{ shop.locale }}',
        {% if gaGenderDimensionIndex != false %}
