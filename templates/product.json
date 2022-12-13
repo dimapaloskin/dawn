@@ -33,7 +33,7 @@
             "picker_type": "button"
           }
         },
-        "0c20a92f-36ed-4c17-bb98-7c0f0eb266f2": {
+        "16ae7a8f-16f4-4950-8b73-9535cfe09274": {
           "type": "shopify:\/\/apps\/test-blocks-app\/blocks\/app-blick\/57b9935b-5103-48b9-ae86-fc2cd2e9dd23",
           "settings": {
             "color": "#000000"
@@ -68,7 +68,7 @@
         "subtitle",
         "price",
         "variant_picker",
-        "0c20a92f-36ed-4c17-bb98-7c0f0eb266f2",
+        "16ae7a8f-16f4-4950-8b73-9535cfe09274",
         "quantity_selector",
         "buy_buttons",
         "description",
