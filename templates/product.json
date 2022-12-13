@@ -6,12 +6,14 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "subtitle": {
           "type": "text",
@@ -21,22 +23,43 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "0c20a92f-36ed-4c17-bb98-7c0f0eb266f2": {
+          "type": "shopify:\/\/apps\/test-blocks-app\/blocks\/app-blick\/57b9935b-5103-48b9-ae86-fc2cd2e9dd23",
+          "settings": {
+            "color": "#000000"
+          }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "share": {
-          "type": "share"
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -45,18 +68,51 @@
         "subtitle",
         "price",
         "variant_picker",
+        "0c20a92f-36ed-4c17-bb98-7c0f0eb266f2",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share"
-      ]
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "167092327553572cf0": {
+      "type": "apps",
+      "blocks": {
+        "b18db81a-af4e-46c0-9250-b9b8feec0965": {
+          "type": "shopify:\/\/apps\/test-blocks-app\/blocks\/app-blick\/57b9935b-5103-48b9-ae86-fc2cd2e9dd23",
+          "settings": {
+            "color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "b18db81a-af4e-46c0-9250-b9b8feec0965"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "167092327553572cf0"
   ]
 }
