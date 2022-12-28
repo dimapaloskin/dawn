@@ -33,12 +33,6 @@
             "picker_type": "button"
           }
         },
-        "16ae7a8f-16f4-4950-8b73-9535cfe09274": {
-          "type": "shopify:\/\/apps\/test-blocks-app\/blocks\/app-blick\/57b9935b-5103-48b9-ae86-fc2cd2e9dd23",
-          "settings": {
-            "color": "#000000"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -48,6 +42,12 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
+          }
+        },
+        "7fc2c2ca-a062-40ae-bfda-7de94e8dad93": {
+          "type": "shopify:\/\/apps\/eyefitu-widget-dima\/blocks\/app-block\/7933dd8c-57b5-40c6-841a-d5288e72e6c9",
+          "settings": {
+            "color": "#000000"
           }
         },
         "description": {
@@ -68,9 +68,9 @@
         "subtitle",
         "price",
         "variant_picker",
-        "16ae7a8f-16f4-4950-8b73-9535cfe09274",
         "quantity_selector",
         "buy_buttons",
+        "7fc2c2ca-a062-40ae-bfda-7de94e8dad93",
         "description",
         "share"
       ],
