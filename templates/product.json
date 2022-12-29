@@ -44,8 +44,8 @@
             "show_dynamic_checkout": true
           }
         },
-        "9d7c7af7-3eb1-4ae4-94a2-ce68afcc76b8": {
-          "type": "shopify:\/\/apps\/eyefitu-widget-dima\/blocks\/app-block\/7933dd8c-57b5-40c6-841a-d5288e72e6c9",
+        "05b5715f-a250-4e2c-8030-482978e6af81": {
+          "type": "shopify:\/\/apps\/eyefitu-sizeengine\/blocks\/app-block\/ee538524-6761-49bb-9fac-80be2ccd1b0a",
           "settings": {
           }
         },
@@ -69,7 +69,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "9d7c7af7-3eb1-4ae4-94a2-ce68afcc76b8",
+        "05b5715f-a250-4e2c-8030-482978e6af81",
         "description",
         "share"
       ],
@@ -93,17 +93,6 @@
     },
     "167092327553572cf0": {
       "type": "apps",
-      "blocks": {
-        "b18db81a-af4e-46c0-9250-b9b8feec0965": {
-          "type": "shopify:\/\/apps\/test-blocks-app\/blocks\/app-blick\/57b9935b-5103-48b9-ae86-fc2cd2e9dd23",
-          "settings": {
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "b18db81a-af4e-46c0-9250-b9b8feec0965"
-      ],
       "settings": {
         "include_margins": true
       }
