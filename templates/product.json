@@ -33,6 +33,11 @@
             "picker_type": "button"
           }
         },
+        "c9292407-3732-41d7-b950-76f4f0b248e2": {
+          "type": "shopify:\/\/apps\/eyefitu-sizeengine\/blocks\/app-block\/ee538524-6761-49bb-9fac-80be2ccd1b0a",
+          "settings": {
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -42,11 +47,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "c9292407-3732-41d7-b950-76f4f0b248e2": {
-          "type": "shopify:\/\/apps\/eyefitu-sizeengine\/blocks\/app-block\/ee538524-6761-49bb-9fac-80be2ccd1b0a",
-          "settings": {
           }
         },
         "description": {
@@ -67,9 +67,9 @@
         "subtitle",
         "price",
         "variant_picker",
+        "c9292407-3732-41d7-b950-76f4f0b248e2",
         "quantity_selector",
         "buy_buttons",
-        "c9292407-3732-41d7-b950-76f4f0b248e2",
         "description",
         "share"
       ],
