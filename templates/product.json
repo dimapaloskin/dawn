@@ -54,11 +54,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "07659e72-948c-4b30-a232-3d9c3f2796f9": {
-          "type": "shopify:\/\/apps\/eyefitu-widget-dima\/blocks\/app-block\/7933dd8c-57b5-40c6-841a-d5288e72e6c9",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -70,8 +65,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "07659e72-948c-4b30-a232-3d9c3f2796f9"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
