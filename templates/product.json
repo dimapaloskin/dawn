@@ -44,11 +44,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "05b5715f-a250-4e2c-8030-482978e6af81": {
-          "type": "shopify:\/\/apps\/eyefitu-sizeengine\/blocks\/app-block\/ee538524-6761-49bb-9fac-80be2ccd1b0a",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -69,7 +64,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "05b5715f-a250-4e2c-8030-482978e6af81",
         "description",
         "share"
       ],
