@@ -55,7 +55,7 @@
             "share_label": "Share"
           }
         },
-        "27dd77cb-1a1c-404b-a19b-4a10a74803cf": {
+        "07659e72-948c-4b30-a232-3d9c3f2796f9": {
           "type": "shopify:\/\/apps\/eyefitu-widget-dima\/blocks\/app-block\/7933dd8c-57b5-40c6-841a-d5288e72e6c9",
           "settings": {
           }
@@ -71,7 +71,7 @@
         "buy_buttons",
         "description",
         "share",
-        "27dd77cb-1a1c-404b-a19b-4a10a74803cf"
+        "07659e72-948c-4b30-a232-3d9c3f2796f9"
       ],
       "settings": {
         "enable_sticky_info": true,
