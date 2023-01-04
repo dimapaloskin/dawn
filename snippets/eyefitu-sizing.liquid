@@ -14,6 +14,7 @@
 
   {% assign sizeOption = null %}
 
+
   {% for product_option in product.options_with_values %}
     {% if product_option.name == "Size" %}
       {%- assign sizeOption = "option" | append: product_option.position -%}
@@ -23,7 +24,7 @@
   {% assign gender = product.metafields.eyefitu.gender | default:'female' %}
   {% assign displayVisualSizeCharts = shop.metafields.eyefitu.app_settings.displayVisualSizeCharts | default: false %}
   {% assign visualSizeChartTitle = product.vendor | append: " - " | append: product.type  %}
-  
+
   <script type="application/javascript">
    window.eyefituShopifyOptions = {
      selector: '{{ selector }}',
