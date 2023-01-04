@@ -36,7 +36,7 @@
         "c5298902-7ebd-4e05-a3a4-b18a336804ca": {
           "type": "shopify:\/\/apps\/eyefitu-widget-dima\/blocks\/app-block\/7933dd8c-57b5-40c6-841a-d5288e72e6c9",
           "settings": {
-            "main_primary_bg_color": "#000000",
+            "main_primary_bg_color": "#ff0000",
             "main_primary_text_color": "#d9ff02"
           }
         },
