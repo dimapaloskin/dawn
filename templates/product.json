@@ -38,6 +38,8 @@
           "settings": {
             "primary_btn_bg_color": "#ff0000",
             "primary_btn_text_color": "#fbff00",
+            "secondary_btn_border_color": "#c600ff",
+            "secondary_btn_text_color": "#0035ff",
             "widget_bg_color": "#00ff00"
           }
         },
