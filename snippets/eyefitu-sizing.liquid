@@ -54,7 +54,7 @@
    };
 
     window.addEventListener('eyefitu', (event) => {
-      console.log(event);
+      sessionStorage.setItem('eyefitu:recommendedSize', event.detail?.recommendedSize)
     });
   </script>
 
