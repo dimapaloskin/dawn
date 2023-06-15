@@ -53,7 +53,7 @@
      },
    };
 
-    sessionStorage.setItem('eyefitu:recommendedSize', null);
+    sessionStorage.removeItem('eyefitu:recommendedSize');
     window.addEventListener('eyefitu', (event) => {
       sessionStorage.setItem('eyefitu:recommendedSize', event.detail?.recommendedSize)
     });
