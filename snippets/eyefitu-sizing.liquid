@@ -57,6 +57,9 @@
     window.addEventListener('eyefitu', (event) => {
       sessionStorage.setItem('eyefitu:recommendedSize', event.detail?.recommendedSize)
     });
+
+    const product = {{ product | json }};
+    console.log(product);
   </script>
 
   <style>
