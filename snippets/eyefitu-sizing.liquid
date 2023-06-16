@@ -61,7 +61,8 @@
 
     const product = {{ product | json }};
     const productOptions = {{product.options_with_values | json}};
-    window.productOptions = productOptions;
+    const sizes = productOptions.find(o => o.name === {{sizeOptionName}});
+    console.log(sizes);
   </script>
 
   <style>
