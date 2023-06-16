@@ -61,8 +61,11 @@
 
     const product = {{ product | json }};
     const productOptions = {{product.options_with_values | json}};
-    const sizes = productOptions.find(o => o.name === '{{sizeOptionName}}');
-    const productOptions = {{product.asd | json}};
+    if (productOptions) {
+      const sizes = productOptions.find(o => o.name === '{{sizeOptionName}}') || null;
+      
+    }
+   
   </script>
 
   <style>
