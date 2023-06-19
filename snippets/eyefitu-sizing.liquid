@@ -5,15 +5,13 @@
   {% assign place = shop.metafields.eyefitu.app_settings.place | default:'before' %}
   {% assign selector = shop.metafields.eyefitu.app_settings.selector | default: 'form[action="/cart/add"]' %}
   {% assign gaGenderDimensionIndex = shop.metafields.eyefitu.app_settings.gaGenderDimensionIndex | default: false %}
+  {% assign sizeOption = shop.metafields.eyefitu.app_settings.sizeOptionName | default: 'Size' %}
 
   {%- if product.featured_image -%}
     {%- assign image_size = product.featured_image.width | append: 'x' -%}
     {%- assign image_url = product.featured_image.src | img_url: image_size -%}
     {%- assign image_https = 'https:' | append: image_url -%}
   {%- endif -%}
-
-  {% assign sizeOption = null %}
-
 
   {% for product_option in product.options_with_values %}
     {% if product_option.name == "Size" %}
