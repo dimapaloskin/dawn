@@ -58,7 +58,10 @@
     });
 
     const product = {{ product | json }};
-    sessionStorage.setItem('eyefitu:product', product);
+    if (product) {
+      sessionStorage.setItem('eyefitu:product', JSON.stringify(product));
+    }
+
     const productOptions = {{product.options_with_values | json}};
     if (productOptions) {
       const sizes = productOptions.find(o => o.name === '{{sizeOptionName}}') || null;
