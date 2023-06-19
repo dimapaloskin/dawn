@@ -5,8 +5,9 @@
   {% assign place = shop.metafields.eyefitu.app_settings.place | default:'before' %}
   {% assign selector = shop.metafields.eyefitu.app_settings.selector | default: 'form[action="/cart/add"]' %}
   {% assign gaGenderDimensionIndex = shop.metafields.eyefitu.app_settings.gaGenderDimensionIndex | default: false %}
-  {% assign sizeOption = shop.metafields.eyefitu.app_settings.sizeOptionName | default: 'Size' %}
+  {% assign sizeOptionName = shop.metafields.eyefitu.app_settings.sizeOptionName | default: 'Size' %}
 
+  <h1>{{ sizeOptionName }}</h1>
   {%- if product.featured_image -%}
     {%- assign image_size = product.featured_image.width | append: 'x' -%}
     {%- assign image_url = product.featured_image.src | img_url: image_size -%}
@@ -14,7 +15,7 @@
   {%- endif -%}
 
   {% for product_option in product.options_with_values %}
-    {% if product_option.name == "Size" %}
+    {% if product_option.name == sizeOptionName %}
       {%- assign sizeOption = "option" | append: product_option.position -%}
     {% endif %}
   {% endfor %}
@@ -22,7 +23,6 @@
   {% assign gender = product.metafields.eyefitu.gender | default:'female' %}
   {% assign displayVisualSizeCharts = shop.metafields.eyefitu.app_settings.displayVisualSizeCharts | default: false %}
   {% assign visualSizeChartTitle = product.vendor | append: " - " | append: product.type  %}
-  {% assign  sizeOptionName = "Size" %}
 
   <script type="application/javascript">
    window.eyefituShopifyOptions = {
