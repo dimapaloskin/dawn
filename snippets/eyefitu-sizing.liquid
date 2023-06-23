@@ -7,7 +7,6 @@
   {% assign gaGenderDimensionIndex = shop.metafields.eyefitu.app_settings.gaGenderDimensionIndex | default: false %}
   {% assign sizeOptionName = shop.metafields.eyefitu.app_settings.sizeOptionName | default: 'Size' %}
 
-  <h1>{{ sizeOptionName }}</h1>
   {%- if product.featured_image -%}
     {%- assign image_size = product.featured_image.width | append: 'x' -%}
     {%- assign image_url = product.featured_image.src | img_url: image_size -%}
