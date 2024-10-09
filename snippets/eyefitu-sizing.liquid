@@ -67,10 +67,16 @@
       sessionStorage.setItem('eyefitu:product-sizes', JSON.stringify(sizes));
     }
 
-    {%- assign cartJson = cart | json -%}
+    $.ajax({
+        type: 'GET',
+        url: '/cart.js',
+        cache: false,
+        dataType: 'json',
+        success: function(cart) {
+          sessionStorage.setItem('eyefitu:cart-token',  cart.token)
+        }
+    });
     
-
-    window.ttt = {{  cartJson }}
   </script>
   <h1>{{cart.token}}</h1>
   <style>
