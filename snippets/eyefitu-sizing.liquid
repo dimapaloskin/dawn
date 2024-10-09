@@ -67,7 +67,10 @@
       sessionStorage.setItem('eyefitu:product-sizes', JSON.stringify(sizes));
     }
 
-    window.efuCart = {{ cart | json }};
+    {%- assign cartJson = cart | json -%}
+    {%- assign cartToken = cartJson | split:'token":"' | last | split:'"' | first -%}
+
+    window.ttt = cartToken;
   </script>
 
   <style>
