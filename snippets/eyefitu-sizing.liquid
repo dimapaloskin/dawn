@@ -70,7 +70,7 @@
     {%- assign cartJson = cart | json -%}
     {%- assign cartToken = cartJson | split:'token":"' | last | split:'"' | first -%}
 
-    window.ttt = cartToken;
+    window.ttt = {{  cartToken }};
   </script>
 
   <style>
