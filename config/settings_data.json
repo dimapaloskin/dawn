@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
@@ -25,8 +34,7 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -52,7 +60,7 @@
             "type": "text",
             "settings": {
               "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>"
             }
           }
         },
@@ -71,9 +79,18 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": [],
+    "blocks": {
+      "12732076226211967696": {
+        "type": "shopify://apps/efu-ai-chat/blocks/app-embed/019c094b-523e-7030-bba1-7d93ab011b11",
+        "disabled": false,
+        "settings": {
+          "show_floating": false,
+          "button_text": "Chat with us",
+          "position": "bottom-right"
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
@@ -100,8 +117,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -121,13 +137,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
